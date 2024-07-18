@@ -1,0 +1,105 @@
+/* 
+Theme Name: Slider WP
+*/
+
+
+:root{
+    --bg1:#B85143;
+    --bg2:#A5BDAC;
+    --bg_main:#E6E8D1;
+    --color:rgb(159 203 217);
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.container section{
+    margin: 60px auto;
+}
+
+body {
+    background: var(--bg_main);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+.swiper {
+    width: 80%;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.current_image{
+    max-height: 480px;
+    width: 100%;
+}
+
+/* header */
+header{ 
+    height:100px;
+    background-color: var(--bg1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav a{
+    color:var(--color);
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
+
+
+footer{ 
+    height:100px;
+    background-color: var(--bg2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer nav a{
+    color:var(--color);
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+}
